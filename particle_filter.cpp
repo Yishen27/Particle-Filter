@@ -179,7 +179,6 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
    *   (look at equation 3.33) http://planning.cs.uiuc.edu/node99.html
    */
   
-  
   for (int i = 0; i<particles.size(); i++){
     vector<LandmarkObs> transformed_ob;
 
